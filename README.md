@@ -63,7 +63,24 @@ const menuData = {
 };
 ```
 
-### 3. Mengganti Gambar QRIS
+### 3. Menambahkan Gambar pada Menu Snack
+Simpan foto produk snack ke dalam folder `images/` (format PNG atau JPG disarankan berlatar transparan atau bersih).
+Lalu tambahkan elemen `.item-thumb-box` pada item di `index.html`:
+```html
+<div class="item">
+  <div class="item-thumb-box">
+    <img class="item-thumb" src="images/nama-snack.png" alt="Nama Snack" loading="lazy" width="56" height="56">
+  </div>
+  <div class="item-info">...</div>
+  ...
+</div>
+```
+Dan tambahkan properti `image` pada item di objek `menuData`:
+```javascript
+{ id: "m2", name: "Beng - Beng Maxx", price: 5000, image: "images/beng-beng-maxx.png" },
+```
+
+### 4. Mengganti Gambar QRIS
 Cari elemen `<img>` dengan `class="qris-img"` di `index.html`:
 ```html
 <img class="qris-img" src="data:image/jpeg;base64,..." alt="QRIS Snack Station">
