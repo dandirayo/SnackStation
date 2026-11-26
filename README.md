@@ -8,7 +8,8 @@ Dibangun dengan desain **Neo-Brutalist / Retro Paper**, responsif untuk perangka
 
 ## Fitur Utama
 
-- **Katalog Snack Interaktif**:
+- **Katalog Snack Interaktif Berbasis Foto**:
+  - Foto kemasan produk nyata yang dioptimalkan untuk seluruh 36 item jajanan.
   - Filter kategori (*SEMUA*, *MANIES MANIES*, *MICIN KRIUK*, *PENGGANJAL LAPAR*).
   - Kontrol jumlah pesanan `+` dan `-` per produk.
 - **Kalkulator Keranjang Otomatis**:
